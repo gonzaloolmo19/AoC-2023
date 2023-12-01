@@ -1,0 +1,4 @@
+/home/gonzalo/Desktop/AoC-2023/plantilla/build/CMakeFiles/part1.dir
+/home/gonzalo/Desktop/AoC-2023/plantilla/build/CMakeFiles/test.dir
+/home/gonzalo/Desktop/AoC-2023/plantilla/build/CMakeFiles/edit_cache.dir
+/home/gonzalo/Desktop/AoC-2023/plantilla/build/CMakeFiles/rebuild_cache.dir

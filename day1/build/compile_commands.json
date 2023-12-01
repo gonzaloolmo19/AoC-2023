@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/gonzalo/Desktop/AoC-2023/day1/build",
+  "command": "/usr/bin/c++  -I/home/gonzalo/Desktop/AoC-2023/day1/include -std=gnu++14 -o CMakeFiles/part1.dir/src/part1.cpp.o -c /home/gonzalo/Desktop/AoC-2023/day1/src/part1.cpp",
+  "file": "/home/gonzalo/Desktop/AoC-2023/day1/src/part1.cpp",
+  "output": "CMakeFiles/part1.dir/src/part1.cpp.o"
+},
+{
+  "directory": "/home/gonzalo/Desktop/AoC-2023/day1/build",
+  "command": "/usr/bin/c++  -I/home/gonzalo/Desktop/AoC-2023/day1/include -std=gnu++14 -o CMakeFiles/part1.dir/src/funciones.cpp.o -c /home/gonzalo/Desktop/AoC-2023/day1/src/funciones.cpp",
+  "file": "/home/gonzalo/Desktop/AoC-2023/day1/src/funciones.cpp",
+  "output": "CMakeFiles/part1.dir/src/funciones.cpp.o"
+},
+{
+  "directory": "/home/gonzalo/Desktop/AoC-2023/day1/build",
+  "command": "/usr/bin/c++  -I/home/gonzalo/Desktop/AoC-2023/day1/include -std=gnu++14 -o CMakeFiles/test.dir/src/test.cpp.o -c /home/gonzalo/Desktop/AoC-2023/day1/src/test.cpp",
+  "file": "/home/gonzalo/Desktop/AoC-2023/day1/src/test.cpp",
+  "output": "CMakeFiles/test.dir/src/test.cpp.o"
+},
+{
+  "directory": "/home/gonzalo/Desktop/AoC-2023/day1/build",
+  "command": "/usr/bin/c++  -I/home/gonzalo/Desktop/AoC-2023/day1/include -std=gnu++14 -o CMakeFiles/test.dir/src/funciones.cpp.o -c /home/gonzalo/Desktop/AoC-2023/day1/src/funciones.cpp",
+  "file": "/home/gonzalo/Desktop/AoC-2023/day1/src/funciones.cpp",
+  "output": "CMakeFiles/test.dir/src/funciones.cpp.o"
+},
+{
+  "directory": "/home/gonzalo/Desktop/AoC-2023/day1/build",
+  "command": "/usr/bin/c++  -I/home/gonzalo/Desktop/AoC-2023/day1/include -std=gnu++14 -o CMakeFiles/part2.dir/src/part2.cpp.o -c /home/gonzalo/Desktop/AoC-2023/day1/src/part2.cpp",
+  "file": "/home/gonzalo/Desktop/AoC-2023/day1/src/part2.cpp",
+  "output": "CMakeFiles/part2.dir/src/part2.cpp.o"
+},
+{
+  "directory": "/home/gonzalo/Desktop/AoC-2023/day1/build",
+  "command": "/usr/bin/c++  -I/home/gonzalo/Desktop/AoC-2023/day1/include -std=gnu++14 -o CMakeFiles/part2.dir/src/funciones.cpp.o -c /home/gonzalo/Desktop/AoC-2023/day1/src/funciones.cpp",
+  "file": "/home/gonzalo/Desktop/AoC-2023/day1/src/funciones.cpp",
+  "output": "CMakeFiles/part2.dir/src/funciones.cpp.o"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/part2.dir/src/part2.cpp.o CMakeFiles/part2.dir/src/funciones.cpp.o -o part2 
