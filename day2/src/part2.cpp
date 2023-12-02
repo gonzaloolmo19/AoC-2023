@@ -1,7 +1,7 @@
 #include "funciones.hpp"
 #include <algorithm>
-#include <iostream>
 #include <fstream>
+#include <iostream>
 
 using namespace std;
 
@@ -9,13 +9,12 @@ int main(int argc, char *argv[]) {
 
 	ifstream is("input.txt");
 	int n = 0;
-	
 
 	if (!is) {
 		cout << "Error al abrir el archivo" << endl;
 		return 1;
 	}
-	
+
 	while (!is.eof()) {
 		string linea;
 		getline(is, linea);
@@ -23,9 +22,9 @@ int main(int argc, char *argv[]) {
 		n += powerOfSetOfCubes(linea);
 	}
 
-	cout<< n<<endl;
+	is.close();
 
-	
+	cout << n << endl;
+
 	return 0;
 }
-
