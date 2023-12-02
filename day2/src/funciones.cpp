@@ -3,6 +3,7 @@
 #include <cstdio>
 #include <fstream>
 #include <iostream>
+#include <limits.h>
 #include <map>
 #include <sstream>
 #include <string>
@@ -80,7 +81,6 @@ int suma_posibles_partidas(string archivo) {
 		while (getline(is, linea)) {
 			contador++;
 			if (partida_posible(linea, 12, 13, 14) && !linea.empty()) {
-				cout << contador << endl;
 				suma += contador;
 			}
 		}
@@ -89,4 +89,56 @@ int suma_posibles_partidas(string archivo) {
 		cout << "No se pudo abrir el archivo" << endl;
 		exit(1);
 	}
+}
+
+int powerOfSetOfCubes(std::string linea) {
+	removeChar(linea, ':');
+	removeChar(linea, ',');
+
+	istringstream iss(linea);
+	string prueba;
+
+	int min_red = 0;
+	int min_green = 0;
+	int min_blue = 0;
+
+	iss >> prueba;
+	linea.erase(0, prueba.length() + 1);
+	string id_str;
+	iss >> id_str;
+	linea.erase(0, id_str.length() + 1);
+
+	map<string, int> min_colores;
+	min_colores["blue"] = 0;
+	min_colores["green"] = 0;
+	min_colores["red"] = 0;
+
+	while (linea.find(";") != string::npos) {
+		auto separador = linea.find(";");
+		string ronda = linea.substr(0, separador);
+		linea.erase(0, ronda.length() + 2);
+		istringstream ironda(ronda);
+		string color;
+		int numero;
+		while (!ironda.eof()) {
+			ironda >> numero;
+			ironda >> color;
+			if (min_colores[color] < numero) {
+				min_colores[color] = numero;
+			}
+		}
+	}
+	string ronda = linea;
+	istringstream ironda(ronda);
+	string color;
+	int numero;
+	while (!ironda.eof()) {
+		ironda >> numero;
+		ironda >> color;
+		if (min_colores[color] < numero) {
+			min_colores[color] = numero;
+		}
+	}
+
+	return min_colores["red"] * min_colores["green"] * min_colores["blue"];
 }

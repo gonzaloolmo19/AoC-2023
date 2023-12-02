@@ -1,5 +1,5 @@
-CMakeFiles/test.dir/src/funciones.cpp.o: \
- /home/gonzalo/Desktop/AoC-2023/day2/src/funciones.cpp \
+CMakeFiles/part2.dir/src/part2.cpp.o: \
+ /home/gonzalo/Desktop/AoC-2023/day2/src/part2.cpp \
  /usr/include/stdc-predef.h \
  /home/gonzalo/Desktop/AoC-2023/day2/include/funciones.hpp \
  /usr/include/c++/13.2.1/string \
@@ -101,7 +101,7 @@ CMakeFiles/test.dir/src/funciones.cpp.o: \
  /usr/include/c++/13.2.1/bits/stl_heap.h \
  /usr/include/c++/13.2.1/bits/uniform_int_dist.h \
  /usr/include/c++/13.2.1/bits/stl_tempbuf.h \
- /usr/include/c++/13.2.1/fstream /usr/include/c++/13.2.1/istream \
+ /usr/include/c++/13.2.1/iostream /usr/include/c++/13.2.1/ostream \
  /usr/include/c++/13.2.1/ios /usr/include/c++/13.2.1/exception \
  /usr/include/c++/13.2.1/bits/exception_ptr.h \
  /usr/include/c++/13.2.1/bits/cxxabi_init_exception.h \
@@ -135,23 +135,9 @@ CMakeFiles/test.dir/src/funciones.cpp.o: \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
  /usr/include/c++/13.2.1/bits/locale_facets.tcc \
  /usr/include/c++/13.2.1/bits/basic_ios.tcc \
- /usr/include/c++/13.2.1/ostream /usr/include/c++/13.2.1/bits/ostream.tcc \
- /usr/include/c++/13.2.1/bits/istream.tcc \
+ /usr/include/c++/13.2.1/bits/ostream.tcc /usr/include/c++/13.2.1/istream \
+ /usr/include/c++/13.2.1/bits/istream.tcc /usr/include/c++/13.2.1/fstream \
  /usr/include/c++/13.2.1/bits/codecvt.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/13.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/13.2.1/bits/fstream.tcc \
- /usr/include/c++/13.2.1/iostream \
- /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/syslimits.h \
- /usr/include/limits.h /usr/include/bits/posix1_lim.h \
- /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h /usr/include/c++/13.2.1/map \
- /usr/include/c++/13.2.1/bits/stl_tree.h \
- /usr/include/c++/13.2.1/ext/aligned_buffer.h \
- /usr/include/c++/13.2.1/bits/stl_map.h /usr/include/c++/13.2.1/tuple \
- /usr/include/c++/13.2.1/bits/uses_allocator.h \
- /usr/include/c++/13.2.1/bits/stl_multimap.h \
- /usr/include/c++/13.2.1/bits/erase_if.h /usr/include/c++/13.2.1/sstream \
- /usr/include/c++/13.2.1/bits/sstream.tcc
+ /usr/include/c++/13.2.1/bits/fstream.tcc

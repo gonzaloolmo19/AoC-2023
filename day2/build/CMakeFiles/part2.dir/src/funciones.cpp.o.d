@@ -1,4 +1,4 @@
-CMakeFiles/test.dir/src/funciones.cpp.o: \
+CMakeFiles/part2.dir/src/funciones.cpp.o: \
  /home/gonzalo/Desktop/AoC-2023/day2/src/funciones.cpp \
  /usr/include/stdc-predef.h \
  /home/gonzalo/Desktop/AoC-2023/day2/include/funciones.hpp \

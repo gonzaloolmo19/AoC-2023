@@ -142,6 +142,19 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
+#=============================================================================
+# Target rules for targets named part2
+
+# Build rule for target.
+part2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 part2
+.PHONY : part2
+
+# fast build rule for target.
+part2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/part2.dir/build.make CMakeFiles/part2.dir/build
+.PHONY : part2/fast
+
 src/funciones.o: src/funciones.cpp.o
 .PHONY : src/funciones.o
 
@@ -149,6 +162,7 @@ src/funciones.o: src/funciones.cpp.o
 src/funciones.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/part1.dir/build.make CMakeFiles/part1.dir/src/funciones.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/funciones.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/part2.dir/build.make CMakeFiles/part2.dir/src/funciones.cpp.o
 .PHONY : src/funciones.cpp.o
 
 src/funciones.i: src/funciones.cpp.i
@@ -158,6 +172,7 @@ src/funciones.i: src/funciones.cpp.i
 src/funciones.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/part1.dir/build.make CMakeFiles/part1.dir/src/funciones.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/funciones.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/part2.dir/build.make CMakeFiles/part2.dir/src/funciones.cpp.i
 .PHONY : src/funciones.cpp.i
 
 src/funciones.s: src/funciones.cpp.s
@@ -167,6 +182,7 @@ src/funciones.s: src/funciones.cpp.s
 src/funciones.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/part1.dir/build.make CMakeFiles/part1.dir/src/funciones.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/funciones.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/part2.dir/build.make CMakeFiles/part2.dir/src/funciones.cpp.s
 .PHONY : src/funciones.cpp.s
 
 src/part1.o: src/part1.cpp.o
@@ -192,6 +208,30 @@ src/part1.s: src/part1.cpp.s
 src/part1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/part1.dir/build.make CMakeFiles/part1.dir/src/part1.cpp.s
 .PHONY : src/part1.cpp.s
+
+src/part2.o: src/part2.cpp.o
+.PHONY : src/part2.o
+
+# target to build an object file
+src/part2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/part2.dir/build.make CMakeFiles/part2.dir/src/part2.cpp.o
+.PHONY : src/part2.cpp.o
+
+src/part2.i: src/part2.cpp.i
+.PHONY : src/part2.i
+
+# target to preprocess a source file
+src/part2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/part2.dir/build.make CMakeFiles/part2.dir/src/part2.cpp.i
+.PHONY : src/part2.cpp.i
+
+src/part2.s: src/part2.cpp.s
+.PHONY : src/part2.s
+
+# target to generate assembly for a file
+src/part2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/part2.dir/build.make CMakeFiles/part2.dir/src/part2.cpp.s
+.PHONY : src/part2.cpp.s
 
 src/test.o: src/test.cpp.o
 .PHONY : src/test.o
@@ -226,6 +266,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... part1"
+	@echo "... part2"
 	@echo "... test"
 	@echo "... src/funciones.o"
 	@echo "... src/funciones.i"
@@ -233,6 +274,9 @@ help:
 	@echo "... src/part1.o"
 	@echo "... src/part1.i"
 	@echo "... src/part1.s"
+	@echo "... src/part2.o"
+	@echo "... src/part2.i"
+	@echo "... src/part2.s"
 	@echo "... src/test.o"
 	@echo "... src/test.i"
 	@echo "... src/test.s"

@@ -1,7 +1,7 @@
 
 all: clean build
 
-build:
+build: 
 	mkdir build/
 	cmake -S . -B build/
 	cmake --build build/

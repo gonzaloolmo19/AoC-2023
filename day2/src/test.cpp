@@ -21,4 +21,9 @@ int main(void) {
 	// Call all tests. Using a test framework would simplify this.
 	test_foo();
 	TEST_CASE(suma_posibles_partidas("test1.txt") == 8);
+	TEST_CASE(powerOfSetOfCubes(
+	              "Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green") ==
+	          48);
+	TEST_CASE(powerOfSetOfCubes("8 green, 6 blue, 20 red; 5 blue, 4 red, 13 "
+	                            "green; 5 green, 1 red") == 1560);
 }
