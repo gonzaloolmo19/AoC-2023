@@ -144,4 +144,4 @@ def part2():
 
 
 print("Resultado parte 1:", part1())
-print("Resultado parte 2:", part2())
+# print("Resultado parte 2:", part2())
