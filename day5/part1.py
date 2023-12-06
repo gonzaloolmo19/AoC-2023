@@ -127,21 +127,23 @@ def part2():
 
     # Vamos a intentar obtener la localizacion a partir de una semilla
     location_list = []
+    min = 10000000000000000000000000000
 
     for i in range(0, len(seeds[0]), 2):
         for ind_clave in range(i, i + seeds[0][i + 1]):
             clave = seeds[0][i] + ind_clave - i
-            print(clave)
             for j in range(len(mapas)):
                 for k in range(len(mapas[j])):
                     if clave in range(mapas[j][k][1], mapas[j][k][2] + mapas[j][k][1]):
                         clave = mapas[j][k][0] + (clave - mapas[j][k][1])
                         break
 
-            location_list.append(clave)
+            if clave < min:
+                min = clave
+            print(min)
 
-    return min(location_list)
+    return min
 
 
 print("Resultado parte 1:", part1())
-# print("Resultado parte 2:", part2())
+print("Resultado parte 2:", part2())
